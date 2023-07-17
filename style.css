@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:300,400,600,700,800,900&display=wasp');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppnins', sans-serif;
+}
+body
+{
+    min-height: 100vh;
+    background: linear-gradient(#6d5379,#d1a7c5
+    );
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo
+{
+    color: #ffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li a
+{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #ffff;
+  border-radius: 20px;
+}
+header ul li a:hover ,
+header ul li a.active
+{
+    background: #ffff;
+    color: #000000;
+}
